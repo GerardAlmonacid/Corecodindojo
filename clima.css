@@ -1,0 +1,656 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.Main-nav{
+    position: fixed;
+    width: 100%;
+    height: 14%;
+    
+    top: 0%;
+    z-index: 1;
+    color: white;
+}
+.Main-nav-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.Nav-box1{
+    background-color:rgb(24, 116, 116) ;
+    width: 100%;
+    height: 40%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Nav-box2{
+    background-color:rgb(24, 116, 116) ;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Nav-box2 button{
+    
+    
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+.Nav-box3{
+    background-color:rgb(24, 116, 116) ;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.Nav-Img-box{
+    background-image: url("c73fc82f493748ea834d56c7340fb00c\ \(1\).png");
+    background-size: cover;
+    background-position: center; /* Add this line */
+    width: 80%;
+    height: 100%;
+    border: 1px solid none ;
+    border-radius: 80%;
+}
+.Nav-box1 a{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+.Nav-box3 a{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+.Bodybuenosaires{
+    position: absolute;
+    left:25%;
+    top: 20%;
+    width: 50%;
+    height: 60%;
+    
+    display: none;
+}
+.Main-box-bodyaires{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.Body-boxaires{
+    display: flex;
+    background-color: rgb(13, 78, 78);
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.Body-boxaires2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Tiempoboxaires1{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(252, 248, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxaires1 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxaires2{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+.Tiempoboxaires2 p,p{
+    margin-left: 45px;
+
+    
+    
+}
+.Tiempoboxaires3{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxaires3 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxaires4{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxaires4 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxaires5{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxaires5 p,p{
+    margin-left: 45px;
+    
+}
+
+.Bodyquito{
+    position: absolute;
+    left:25%;
+    top: 20%;
+    width: 50%;
+    height: 60%;
+   
+    display: none;
+}
+.Main-box-bodyquito{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.Body-boxquito{
+    display: flex;
+    background-color: rgb(13, 78, 78);
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.Body-boxquito2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Tiempoboxquito1{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxquito1 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxquito2{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxquito2 p,p{
+    margin-left: 45px;
+    
+}
+
+
+.Tiempoboxquito3{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxquito3 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxquito4{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxquito4 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxquito5{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxquito5 p,p{
+    margin-left: 45px;
+    
+}
+
+
+.Bodymexico{
+    position: absolute;
+    left:25%;
+    top: 20%;
+    width: 50%;
+    height: 60%;
+    
+    display: none;
+}
+.Main-box-bodymexico{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.Body-boxmexico{
+    display: flex;
+    background-color: rgb(13, 78, 78);
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.Body-boxmexico2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Tiempoboxmexico1{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxmexico1 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxmexico2{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxmexico2 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxmexico3{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxmexico3 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxmexico4{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxmexico4 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxmexico5{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxmexico5 p,p{
+    margin-left: 45px;
+    
+}
+
+
+
+
+.BodySantiago{
+    position: absolute;
+    left:25%;
+    top: 20%;
+    width: 50%;
+    height: 60%;
+    
+    display: none;
+}
+.Main-box-bodysantiago{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.Body-boxsantiago{
+    display: flex;
+    background-color: rgb(13, 78, 78);
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.Body-boxsantiago2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Tiempoboxsantiago1{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxsantiago1 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxsantiago2{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxsantiago2 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxsantiago3{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxsantiago3 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxsantiago4{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxsantiago4 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxsantiago5{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxsantiago5 p,p{
+    margin-left: 45px;
+    
+}
+
+
+
+
+
+
+.Bodysao{
+    position: absolute;
+    left:25%;
+    top: 20%;
+    width: 50%;
+    height: 60%;
+    
+    display: none;
+}
+.Main-box-bodysao{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.Body-boxsao{
+    display: flex;
+    background-color: rgb(13, 78, 78);
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.Body-boxsao2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Tiempoboxsao1{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxsao1 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxsao2{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxsao2 p,p{
+    margin-left: 45px;
+    
+}
+
+.Tiempoboxsao3{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxsao3 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxsao4{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxsao4 p,p{
+    margin-left: 45px;
+    
+}
+.Tiempoboxsao5{
+    display: flex;
+    width: 16%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.Tiempoboxsao5 p,p{
+    margin-left: 45px;
+    
+}
+
+
+
+.Main-footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 6%;
+    background-color: rgb(14, 20, 16);
+}
+.Main-footer-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.Main-footer-box p{
+    margin-right: 40px;
+    color: antiquewhite;
+    
+    
+    
+}
+.Main-footer-box a{
+    margin-right: 40px;
+    color: antiquewhite;
+    
+}
+.Main-footer-box button{
+    background-color: yellow;
+    width: 100px;
+
+    
+}
